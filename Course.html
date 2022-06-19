@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>National Engineering College</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Course.html">BUILD</a></li>
+                        <li><a href="Blog.html">CAREERS</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+
+            </nav>
+            <h1>We Build</h1>
+        </section>
+
+<!--- Courses---->
+
+<section class="course">
+    <h1>Trust is what we build</h1>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>AERO ENGINES</h3>
+            <p>An aircraft engine, often referred to as an aero engine, is the power component of an aircraft propulsion system. Most aircraft engines are either piston engines or gas turbines, although a few have been rocket powered and in recent years many small UAVs have used electric motors. </p>
+        </div>
+         <div class="course-col">
+            <h3>AEROSPACE & DEFENSE</h3>
+            <p>Aerospace and Defense (A&D) OEMs are under constant pressure to innovate, adapt, and overcome industry challenges. The need to reduce component size, weight, cost, and time-to-market without compromising safety and security is a significant challenge for suppliers.</p>
+        </div>
+         <div class="course-col">
+            <h3>AUTOMOTIVE</h3>
+            <p>The automotive industry comprises a wide range of companies and organizations involved in the design, development, manufacturing, marketing, and selling of motor vehicles. It is also the industry with the highest spending on research & development.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-------- facililites --------->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="infa.jpg">
+            <h3>Infastructure</h3>
+             <p>We provide a good infastructure to employees to enrich their work to make high level.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="s1.jpg">
+            <h3>Our Services</h3>
+             <p>We provide services all over India. Also we satisfy the customer needs.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="security.jpg">
+            <h3>Security</h3>
+             <p>We provide security among database of all employees and record details.</p>
+        </div>
+    </div>
+</section>
+
+
+<!--- Footer---->
+
+<section class="footer">
+    <h4>About Us</h4>
+     <p>We offer IT consulting, Training & Software development services to all our clients in the United States <br> with our highly skilled consultants having vast experience in their relevant fields.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>        
+    </div>
+</section>
+
+
+
+
+
+<!------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+
+    </body>
+</html>
